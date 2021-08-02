@@ -1,0 +1,203 @@
+.one{
+    display: flex;
+    max-height: 460px;
+}
+
+.img-laugh img{
+   height: 350px;
+}
+
+.caption-laugh{
+    position: absolute;
+    margin-top: -354px;
+    background-color: yellow;
+    width: 420px;
+    padding: 5px;
+}
+
+.onthespot{
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+.date{
+    display: flex;
+    width: 100%;
+    background-color: #d2d1ba;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.date *{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.end{
+   margin-left: auto;
+   background-color: black;
+   color: white;
+   width: 12ch;
+   text-align: center;
+}
+
+.middle{
+    margin-left: auto;
+}
+
+.widthy{
+    width: 100%;
+}
+
+.tables{
+    width: 100%;
+    border: #d2d1ba 2px solid;
+    margin-top: 36px;
+    height: 530px;
+}
+
+.logo img{
+    width: 300px;
+    margin-right: 50px;
+}
+
+body{
+    padding: 1rem;
+}
+
+.table-t{
+    height: 355px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1em;
+    max-height: 600px;
+    min-width: 1000px;
+}
+
+.tank-pic img{
+    width: 400px;
+    border: 14px solid #f2f1df;
+}
+
+
+.disaster-img img{
+    width: 700px;
+}
+
+.headline{
+    text-align: center;
+}
+
+.main{
+    display: inline-block;
+    height: fit-content;
+    object-fit: contain;
+    background-color: #f2f1df;
+    width: fit-content;
+    margin-top: 70px
+}
+
+.disaster{
+    margin-left: 30px;
+    display: flex;
+    grid-column: 1/-1;
+}
+
+.tank-pic{
+    background-color: transparent;
+    grid-column: 1/2;
+    align-self: flex-end;
+    margin-left: 40px;
+}
+
+.disaster, .tank-pic{
+    grid-row: 1/2;
+}
+
+.disaster .slim{
+    max-width: 250px;
+    font-size: 1.7rem;
+    padding: 1.2rem;
+    margin-top: -25px;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.cap{
+    margin-left: 250px;
+    font-size: small;
+    width: 450px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    margin-top: 70px;
+    gap: 1rem;
+}
+
+h1{
+    font-size: 7rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.page2 p{
+    font-size: 1.3rem;
+}
+
+.head{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2ch;
+}
+
+.a-caption{
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 180px;
+}
+
+.story{
+    font-size: 1.2rem;
+}
+
+.head::before{
+    content: '';
+    width: 180px;
+    height: 25px;
+    background-color: blue;
+    position: absolute;
+    margin-top: -35px;
+}
+
+sup{
+    font-size: 0.7rem;
+}
+ .th{
+     font-size: 3.5rem;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ .margina{
+     padding: .5rem;
+ }
